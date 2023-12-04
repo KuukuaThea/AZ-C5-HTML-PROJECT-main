@@ -1,0 +1,110 @@
+<!Doctype Html>
+<Html>   
+<Head>    
+    <link rel="stylesheet" href="style.css" >
+<Title>   
+Contact Page
+</Title>
+<style>
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f0da80;
+  padding: 10px;
+}
+.socials {
+  float: right;
+  position: relative;
+  top: 9px;
+}
+.socials a img {
+margin: 10px 12px 0 0;
+float: right;
+}
+</style>
+
+</Head>
+<Body> 
+<header>
+<nav>
+<ul>
+<li>
+<a href="Home.html"> Home </a>
+</li>
+<li>
+<a href="Aboutme.html"> About me</a>
+</li>
+<li>
+<a href="Projects.html"> Projects </a>
+</li>
+<li> <a href="SkillsExp.html"> Skills & Expertise</a>
+</li>
+<li>
+<a href="Contact.html"> Contact </a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7107.504990685429!2d-0.1446618265146789!3d5.631452049675414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85ce7348a033%3A0x7ff8ec49121bc2b9!2sCommunity%2018%20Apartments!5e0!3m2!1sen!2sgh!4v1701639919075!5m2!1sen!2sgh" width="100%" height="650px" frameborder="0" style="border: 5px;" allowfullscreen></iframe>
+    </div>
+<div class="column">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="ghana">Ghana</option>
+        <option value="Kenya">Kenya</option>
+        <option value="South africa">South Africa</option>
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+<footer class="socials">
+    <div class="icons">
+      <a href="https://twitter.com/home"></a>
+      <i class="twitter"> <img src="twitter.png" width="24" height="24"></i>
+      <a href="http://linkedin.com/in/anthea-yeboah-401606107"></a>
+      <i class="LinkedIn"> <img src="LinkedIn.png" width="24" height="24"></i>
+      <a href ="https://instagram.com/anthea.yb?utm_source=qr"></a>
+      <i class="instagram"> <img src="instagram.png" width="24" height="24"></i>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+</Body> 
+</Html>
+
+ 
